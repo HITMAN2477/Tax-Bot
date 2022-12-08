@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 
-app.listen(() => console.log("Tax bot By Rayan"));
+app.listen(() => console.log("Tax bot By Black"));
 
 ///coded by : Unknowm
 const Discord = require('discord.js');
@@ -17,7 +17,7 @@ client.on("ready", () => {
   console.log(`> ${new Date()}`);
   console.log(">| Name :");
   console.log(`> ${client.user.username}`);
-  client.user.setActivity('Tax Bot By Rayan ', ({type: "LISTENING"}))
+  client.user.setActivity('Tax Bot By Black ', ({type: "LISTENING"}))
 });
  
  
@@ -33,7 +33,7 @@ const devs = "id";//Dev Bot Id & دەڤی بۆتەکەت دابنێ
     .join(" "); if (message.author.bot) return;
   if (!message.guild) return;
   if (!message.content.startsWith(prefix)) return;
-///coded by : Rayan
+///coded by : Black
   if (message.content.toLowerCase().startsWith(prefix + "help".toLowerCase())) { 
     let help = new Discord.MessageEmbed()
       .setColor("0x5016f3")
@@ -44,7 +44,7 @@ const devs = "id";//Dev Bot Id & دەڤی بۆتەکەت دابنێ
                 
                1-  ${prefix}tax 
         --------------------------------------------------
-        Developers : <@841245687533535242>
+        Developers : @951848862589526057
             **`);
     message.channel.send(help);
   }
